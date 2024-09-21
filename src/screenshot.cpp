@@ -20,7 +20,7 @@ Screen::Screen() { this->init(); }
 void Screen::init() {
   working = true;
   // 获取原神窗口的句柄
-  HWND hWnd = FindHandle("YuanShen.exe");
+  HWND hWnd = FindHandle("GenshinImpact.exe");
   this->gameHandle = hWnd;
   // dpi 感知
   SetProcessDpiAwareness(PROCESS_PER_MONITOR_DPI_AWARE);
